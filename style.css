@@ -15,6 +15,7 @@
     display: flex;
     justify-content: space-between;
     padding: 0 20px;
+    
 }
 
 .header-logo{
@@ -115,9 +116,31 @@
 .ticket-container{
     background-color: #ffd700;
     padding-top: 50px;
-
+    display: flex;
+    padding-bottom: 50px;
 }
 
+.special-img > img{
+    width: 500px;
+    height: 250px;
+}
+.ticket-btn{
+    color: #000000;
+    font-weight: bolder;
+}
+.ticket-btn > h2{
+    font-weight: bolder;
+}
+
+.ticket-btn > button{
+    border: 1px solid #000000;
+    background-color: transparent;
+    color: rgb(0, 0, 0);
+    padding: 5px 10px;
+    font-weight: bolder;
+}
+
+/* footer */
 marquee{
     background-color: black;
 }
