@@ -67,6 +67,7 @@
         padding-top: 13px;
         padding-right: 30px;
         font-size: 2rem;
+        cursor: pointer;
     }
     .header-content{
         display: none;
